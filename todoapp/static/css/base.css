@@ -1,0 +1,133 @@
+body {
+    background-color: pink;
+    font-family: "Rubik Vinyl", serif;
+    font-size: 15px;
+    margin-top: 55px;  
+}
+
+.todoAppwrapper {
+    max-width: 530px;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: -34px 0px 15px -5px #777777;
+    border-radius: 10px;
+}
+
+a {
+    color:rgb(26, 43, 154);
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0;
+}
+
+.header {
+    text-align: center;
+    padding: 20px 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(43,165,190,1) 69%);
+    border-radius: 10px 10px 0 0;
+    color: white
+}
+
+.taskwrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-top: 1px solid rgb(20, 12, 12);
+}
+
+.taskTitle {
+    display: flex;
+    align-items: center;
+}
+
+.taskCompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(34, 171, 130);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.taskIncompletedIcon {
+    height: 20px;
+    width: 20px;
+    background-color: rgb(208, 217, 214);
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.loginAndLogout {
+    padding: 20px;
+}
+
+.loginAndLogout a {
+    color: blueviolet;
+}
+
+.editButton {
+    color: green;
+}
+
+.deleteButton {
+    color: red;
+}
+
+/* タスク検索と追加フォーム */
+.searchwrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+
+.searchInput {
+    height: 24px;
+    outline: none;
+    border: 1px solid lightgreen;
+    border-radius: 5px;
+    padding: 2px 4px;
+    width: 160px !important;
+}
+
+.searchButton {
+    border: 1px solid lightgreen;
+    padding: 4px 10px;
+    background-color: rgb(226, 202, 158);
+    color: black;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: all 0.4s;
+}
+
+.searchButton:hover {
+    background-color: lightgreen;
+    color: white;
+}
+.addButton {
+    font-size: 32px;
+    color: lightgreen;
+}
+
+label {
+    display: block;
+
+}
+
+input[type='text'],
+textarea {
+    width: 100%;
+}
+
+.accountwrapper {
+    padding: 20px;
+}
+
+.accountwrapper p {
+    margin: 0;
+    padding: 0;
+}
